@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_teshruparelll_python_1723046405111-pr-trigger-input-set
+  identifier: Build_teshruparelll_python_1723046405111prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Python
+  pipeline:
+    identifier: Build_teshruparelll_python_1723046405111
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
