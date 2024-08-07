@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_teshruparelll_python_1723046405111-push-trigger-input-set
+  identifier: Build_teshruparelll_python_1723046405111pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Python
+  pipeline:
+    identifier: Build_teshruparelll_python_1723046405111
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
